@@ -392,8 +392,14 @@ nav li {
     }
     .ourServices {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
         gap: 30px;  
+    }
+    #service3 {
+        grid-column: span 2;
+        margin: 0px 25%;
     }
 }
 
